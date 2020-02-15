@@ -1,0 +1,123 @@
+.blog{
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.blog__name{
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.blog__name h1{
+    color: #3e3e3e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.blog__name p{
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding: 15px 0 0 0 ;
+}
+
+.blog__inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.blog__card{
+    width: calc(33.3% - 25px);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+
+}
+.blog__image {
+    width: 100%;
+}
+.blog__image img {
+    width: 100%;
+}
+
+.blog__content{
+    padding: 10px 20px;
+    position: relative;
+}
+
+.blog__content h1{
+    color: #3e3e3e;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: start;
+}
+
+.blog__p{
+    display: flex;
+    position: relative;
+}
+
+.blog__after::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color:#999999;
+    top: 16px;
+    left: 80px;
+    border-radius: 50%;
+
+}
+
+.blog__after::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color:#999999;
+    top: 16px;
+    left: 173px;
+    border-radius: 50%;
+}
+
+.blog__p{
+    color: #999999;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 12px;
+    line-height: 17.1429px;
+    text-align: start;
+}
+
+.blog__p a{
+    color: #999999;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 12px;
+    line-height: 17.1429px;
+    text-align: start;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog__text{
+    padding: 10px 0;
+}
+
+.blog__text p{
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: start;
+
+}

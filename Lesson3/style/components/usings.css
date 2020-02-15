@@ -1,0 +1,103 @@
+.usings{
+    background:url(http://demo.wphash.com/moto/wp-content/uploads/2018/07/2.png);
+    width: 100%;    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.usings__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: wrap;
+    height: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.usings__downloads{
+    padding-top: 70px;
+    align-items: center;
+}
+
+.usings__installs{
+    padding-top: 70px;
+}
+
+.usings__clients{
+    padding-top: 70px;
+}
+
+.usings__rat{
+    padding-top: 70px;
+}
+
+.usings__downloads h2{
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.usings__downloads p{
+    color: #ffffff;
+    font-family:"Open Sans" , sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.usings__installs h2{
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.usings__installs p{
+    color: #ffffff;
+    font-family:"Open Sans" , sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.usings__clients h2{
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.usings__clients p{
+    color: #ffffff;
+    font-family:"Open Sans" , sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.usings__rat h2{
+    padding: 10px 0;
+    color: #ffffff;
+    font-family: "Open Sans" , sans-serif;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.usings__rat p{
+    color: #ffffff;
+    font-family:"Open Sans" , sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
